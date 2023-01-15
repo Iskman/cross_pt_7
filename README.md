@@ -8,17 +8,17 @@
 
 
 Использую компонент QTableWiget для выбора любимой каши согласно задаче. Создал функцию table_clicked для отслеживания нажатия по ячейке.
-В ходе выполнения задачи, выяснилось что обязательным условием для срабатывания cellClicked было добавление элементов, то есть событие нажатия не считывается с первого столбца и первой строки таблицы QTableWiget:
+В ходе выполнения задачи, выяснилось что обязательным условием для срабатывания cellClicked было добавление элементов, то есть событие нажатия не считывается с первого столбца и первой строки таблицы QTableWiget:<br>
 ![изображение](https://user-images.githubusercontent.com/51114487/212562919-b1d43c6d-c141-4a8b-acc0-edc8bd147297.png)
 
-Меняю значение label_selected через функцию table_clicked в соответствии с выбранной ячейкой:
+Меняю значение label_selected через функцию table_clicked в соответствии с выбранной ячейкой:<br>
 <img width="706" alt="1" src="https://user-images.githubusercontent.com/51114487/212562315-0480f774-adf1-40bd-9f94-d4794d46d041.png">
 
-Использование компонетнта QListWiget по похожему принципу:
+Использование компонетнта QListWiget по похожему принципу:<br>
 <img width="665" alt="2" src="https://user-images.githubusercontent.com/51114487/212562316-6ac2f568-8871-43ef-9b4d-7d24d0ceb34a.png">
 
-Использование компонетнта QComboBox:
+Использование компонетнта QComboBox:<br>
 <img width="675" alt="3" src="https://user-images.githubusercontent.com/51114487/212562312-bbf74f4c-90fc-4eb9-be1d-e6902e3143e9.png">
 
-Итог в QTableWiget, ячейки заполняются из массива:
+Итог в QTableWiget, ячейки заполняются из массива:<br>
 <img width="736" alt="4" src="https://user-images.githubusercontent.com/51114487/212562314-e4529d6f-5069-4962-9cfe-f291787479ed.png">
