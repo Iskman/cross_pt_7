@@ -11,7 +11,7 @@
 В ходе выполнения задачи, выяснилось что обязательным условием для срабатывания cellClicked было добавление элементов, то есть событие нажатия не считывается с первого столбца и первой строки таблицы QTableWiget:<br>
 ![изображение](https://user-images.githubusercontent.com/51114487/212563663-c6fc45d1-4de6-4efd-b78a-557ebff9a66d.png)
 
-<br>
+<br><br>
 Меняю значение label_selected через функцию table_clicked в соответствии с выбранной ячейкой:<br>
 <img width="706" alt="1" src="https://user-images.githubusercontent.com/51114487/212562315-0480f774-adf1-40bd-9f94-d4794d46d041.png">
 <br>
